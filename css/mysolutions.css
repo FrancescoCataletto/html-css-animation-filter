@@ -66,3 +66,9 @@
     width: 60px;
     transition: 1s;
 }
+
+/* SESTO ESERCIZIO */
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
