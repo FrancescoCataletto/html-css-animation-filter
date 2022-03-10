@@ -30,3 +30,15 @@
     transition: 0.5s;
     transition-delay: 0.4s;
 }
+
+/* QUARTO ESERCIZIO */
+
+.ex-4-square:hover{
+    background-color:rgb(245, 245, 245);
+    transition: 1s;
+}
+
+.ex-4-square:not(:hover){
+    transition: 0.5s;
+    background-color: red;
+}
