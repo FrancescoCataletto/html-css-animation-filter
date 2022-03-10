@@ -126,3 +126,17 @@
     from{ transform: rotate(360deg);}
     to{transform: rotate(-360deg);}
 }
+
+/* UNDICESIMO ESERCIZIO */
+
+.ex-11-icon:hover{
+   animation-name: secondrotation;
+   animation-duration: 1.5s;
+   animation-timing-function: linear;
+}
+
+@keyframes secondrotation{
+    90%{transform: rotate(270deg);}
+    100%{transform: rotate(0deg );}   
+}
+
