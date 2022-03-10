@@ -163,3 +163,60 @@
     50%{right: calc(100% - 60px);}
     100%{right: 20%;}
 }
+
+/* TREDICESIMO ESERCIZIO */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: toprotation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes toprotation{
+    25%{top: -10px;
+
+        left: calc(100% - 30px);}
+
+    50%{left: calc(100% - 30px);
+
+        top: calc(100% + -10px);
+    }
+
+    75%{top: calc(100% + -10px);
+
+        left: calc(0% - 30px);
+    }
+
+    100%{left: calc(0% - 30px);
+
+        top: calc(0% - 10px);
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation-name: bottomrotation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes bottomrotation{
+    25%{right: calc(100% - 30px);
+
+        bottom: -10px;
+    }
+
+    50%{right: calc(100% - 30px);
+
+        bottom: calc(100% - 10px);
+    }
+
+    75%{right: calc(0% - 30px);
+
+        bottom: calc(100% - 10px);
+    }
+
+    100%{right: calc(0% - 30px);
+
+        bottom: -10px;
+    }
+}
