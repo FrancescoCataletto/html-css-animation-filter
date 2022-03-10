@@ -80,10 +80,35 @@
     transition: 2s;
 }
 
+.ex-7-img:not(:hover){
+    filter: none;
+    transition: 2s;
+}
 /* OTTAVO ESERCIZIO */
 
 .ex-8-img:hover{
     border-radius: 25px;
     transition: 2s;
     filter: sepia(70%) grayscale(40%);
+}
+
+.ex-8-img:not(:hover){
+    border-radius: 0;
+    transition: 2s;
+    filter: none;
+}
+/* NONO ESERCIZIO */
+
+.ex-9-img:hover{
+    border-radius: 25px;
+    transition: 2s;
+    transform: scale(1.5);
+    filter: sepia(70%) grayscale(50%);
+}
+
+.ex-9-img:not(:hover){
+    border-radius: 0;
+    transition: 2s;
+    transform: none;
+    filter: none;
 }
