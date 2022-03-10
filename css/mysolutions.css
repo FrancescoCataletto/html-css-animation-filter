@@ -1,13 +1,21 @@
 /* PRIMO ESERCIZIO */
 
 .ex-1-square:hover{
-    animation-name: rosso-graduale;
-    animation-duration: 2s;
-    animation-timing-function: 4s;
-}
-
-@keyframes rosso-graduale{
-    100% {background-color: red;}
+    background-color: red;
+    transition: 3s;
 }
 
 /* SECONDO ESERCIZIO */
+
+.ex-2-square:active{
+    width: 100%;
+    transition: 2s;
+}
+
+.ex-2-square:not(:active){
+    width: 100px;
+    transition: 2s;
+}
+
+
+
