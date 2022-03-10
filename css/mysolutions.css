@@ -72,3 +72,10 @@
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
+
+/* SETTIMO ESERCIZIO */
+
+.ex-7-img:hover{
+    filter: sepia(70%);
+    transition: 2s;
+}
