@@ -140,3 +140,26 @@
     100%{transform: rotate(0deg );}   
 }
 
+/* DODICESIMO ESERCIZIO */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: slideright;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes slideright{
+    50%{left: calc(100% - 60px);}
+    100%{left: 10%;}
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: slideleft;
+    animation-duration: 2s;
+    animation-timing-function: linear;   
+}
+
+@keyframes slideleft{
+    50%{right: calc(100% - 60px);}
+    100%{right: 20%;}
+}
