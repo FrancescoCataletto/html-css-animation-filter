@@ -79,3 +79,11 @@
     filter: sepia(70%);
     transition: 2s;
 }
+
+/* OTTAVO ESERCIZIO */
+
+.ex-8-img:hover{
+    border-radius: 25px;
+    transition: 2s;
+    filter: sepia(70%) grayscale(40%);
+}
